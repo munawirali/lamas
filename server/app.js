@@ -14,8 +14,10 @@ app.get('/', (req,res,nex)=>{
   )
 })
 const login = require('./routes/login');
+const reports = require('./routes/reports');
 
 app.use('/api/login',login);
+app.use('/api/reports', reports);
 
 app.listen(process.env.PORT || 3000, ()=>{
   console.log('Listening from port 3000');
