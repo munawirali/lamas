@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <div class="container">
+    <!-- <div class="container">
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="/w3images/lights.jpg">
@@ -91,7 +91,7 @@
       </a>
     </div>
   </div>
-</div>
+</div> -->
   </div>
 </template>
 
@@ -100,7 +100,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+
     }
   }
 }
